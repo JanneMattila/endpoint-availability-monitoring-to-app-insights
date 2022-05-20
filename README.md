@@ -29,7 +29,6 @@ ai_connectionstring=$(echo $ai_json | jq -r .connectionString)
 echo $ai_connectionstring
 ```
 
-
 ## Configuration
 
 You can configure endpoints to monitor in `appsettings.json`:
@@ -41,8 +40,8 @@ You can configure endpoints to monitor in `appsettings.json`:
     "https://docker.io"
   ],
   "frequency": 60,
-  "location": "Office"
-  //"connectionstring":  "<put your app insights connectionstring here>"
+  "location": "Office",
+  "connectionstring":  "<put your app insights connectionstring here>"
 }
 ```
 
@@ -83,7 +82,7 @@ spec:
       nodeSelector:
         kubernetes.io/os: linux
       containers:
-      - image: jannemattila/endpoint-availability-to-app-insights:1.0.1
+      - image: jannemattila/endpoint-availability-to-app-insights
         name: monitoring
         env:
         - name: uris__0
