@@ -18,4 +18,4 @@ WORKDIR /app
 # Copy content from Build image
 COPY --from=build /app .
 
-ENTRYPOINT ["Endpoint-availability-to-app-insights.exe"]
+ENTRYPOINT ["/app/Endpoint-availability-to-app-insights.exe"]
