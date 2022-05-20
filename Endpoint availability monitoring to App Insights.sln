@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32421.90
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{529310C6-1D29-4A76-AEC9-F680F869D039}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{AC7B92D3-C53A-42B3-BE98-BFA214DE2861}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Endpoint-availability-to-app-insights", "src\Endpoint-availability-to-app-insights\Endpoint-availability-to-app-insights.csproj", "{3F16481B-C215-4D32-B996-41659DC13FFD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3F16481B-C215-4D32-B996-41659DC13FFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F16481B-C215-4D32-B996-41659DC13FFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F16481B-C215-4D32-B996-41659DC13FFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F16481B-C215-4D32-B996-41659DC13FFD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3F16481B-C215-4D32-B996-41659DC13FFD} = {529310C6-1D29-4A76-AEC9-F680F869D039}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CF293C2B-6CFF-428D-8D2D-00363CB383C7}
+	EndGlobalSection
+EndGlobal
