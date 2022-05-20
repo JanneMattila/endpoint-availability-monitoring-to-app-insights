@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net6.0</TargetFramework>
-    <RootNamespace>HealthEndpointToAppInsights</RootNamespace>
+    <RootNamespace>EndpointToAppInsights</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <UserSecretsId>3c33aa53-4fa9-4b5c-b962-d5063f590d4e</UserSecretsId>
